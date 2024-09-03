@@ -1,0 +1,182 @@
+body {
+
+    background-color: black;
+}
+
+
+.flex-container {
+
+    height: 420px;
+    width: 250px;
+    background-color: lightsteelblue;
+    margin: auto;
+    border: solid 5px darkorchid;
+    border-radius: 20px;
+}
+
+.flex-container .answer input {
+    border: none;
+    height: 35px;
+    width: 95.8%;
+    margin-left: 5px;
+
+}
+
+.flex-container .answer #answer2 {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.flex-container .answer #answer1 {
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+    font-size: 18px;
+}
+
+.flex-container .answer {
+    margin-top: 6px;
+
+}
+
+.flex-container .button-set input {
+
+    width: 22%;
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: indigo;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.flex-container .button-set input:hover {
+
+    background-color: violet;
+}
+
+.flex-container .button-set #ans-set {
+
+    width: 94%;
+    height: 50px;
+    background-color: darkgreen;
+}
+
+.flex-container .button-set #ans-set:hover {
+
+    background-color: lightgreen;
+
+}
+
+.flex-container .button-set #clear-button,
+.flex-container .button-set #back-button {
+    background-color: green;
+}
+
+.flex-container .button-set #clear-button:hover {
+    background-color: lightgreen;
+}
+
+.flex-container .button-set #back-button:hover {
+    background-color: lightgreen;
+}
+
+.flex-container .button-set {
+    margin-left: 16px;
+
+}
+
+.flex-container h6 {
+    margin: 15px 35px;
+
+    color: white;
+    background-color: black;
+    width: 64%;
+}
+
+/* ///////////////////////For Clock///////////////////////// */
+
+.time-class {
+    background-color: rgb(231, 78, 78);
+   
+    width: fit-content;
+    position: fixed;
+    left: 75%;
+    top: 0px;
+
+}
+
+.time-class:hover {
+    background-color: rgba(247, 1, 1, 0.4);
+    
+}
+
+.time-class div {
+
+    display: inline;
+    font-size: 50px;
+    color: white;
+}
+
+/* ////////////////////////////////STOP WATCH///////////////////////////// */
+
+.stop-watch {
+    background-color: none;
+    width: fit-content;
+    margin-left: 20%;
+    display: inline;
+}
+
+.stop-watch div {
+    display: inline;
+    font-size: 70px;
+    color: white;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10%;
+
+}
+
+.btn:hover {
+    background-color: rgb(187, 100, 100);
+
+
+}
+
+/* /////////////////////Registration Form/////////////////////////////////////////////// */
+
+
+.regform {
+
+    height: 380px;
+    background-color: lightblue;
+   
+}
+.regform #sexf {
+
+    margin-left: -100px;
+}

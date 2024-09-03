@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="row answer">
+            <input type="text" readonly="readonly" id="answer1">
+            <input type="text" readonly="readonly" id="answer2">
+        </div>
+        <br><br>
+        <div class="button-set">
+
+            <input type="button" value="1" onclick="getnum(1)">
+            <input type="button" value="2" onclick="getnum(2)">
+            <input type="button" value="3" onclick="getnum(3)">
+            <input type="button" value="4" onclick="getnum(4)">
+            <br>
+
+            <input type="button" value="5" onclick="getnum(5)">
+            <input type="button" value="6" onclick="getnum(6)">
+            <input type="button" value="7" onclick="getnum(7)">
+            <input type="button" value="8" onclick="getnum(8)">
+            <br>
+
+            <input type="button" value="9" onclick="getnum(9)">
+            <input type="button" value="0" onclick="getnum(0)">
+            <input type="button" id="clear-button" value="C" onclick="getnum('c')">
+            <input type="button" id="back-button" value="<<" onclick="getnum('b')">
+            <br>
+
+            <input type="button" value="+" onclick="getnum('+')">
+            <input type="button" value="-" onclick="getnum('-')">
+            <input type="button" value="/" onclick="getnum('/')">
+            <input type="button" value="x" onclick="getnum('*')">
+            <br>
+
+            <input type="button" id="ans-set" value="ANSWER" onclick="getnum('ans')">
+        </div>
+
+        <h6>BY Engr. Arsalan Ahmad</h6>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
